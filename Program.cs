@@ -15,6 +15,13 @@ class Program
         var model = trainingPipeline.Fit(LoadData(mlContext));
 
         var predictionEngine = mlContext.Model.CreatePredictionEngine<SentimentData, SentimentPrediction>(model);
+
+        var testSentiments = new[]
+        {
+          new SentimentData { Text = "I love this product!"},
+          new SentimentData { Text = "This is the worst experience i have ever had"},
+          new SentimentData { Text = "Im not sure how i feel about this"}
+        };
     }
 
     static IDataView LoadData(MLContext mlContext)
