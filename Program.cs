@@ -8,6 +8,17 @@ class Program
   {
     MLContext mLContext = new MLContext;
   }
+
+  static IDataView LoadData(MLContext mlContext)
+  {
+    var trainingData = new[]
+    {
+      new SentimentData { Text = "This product is great!", Label = true},
+      new SentimentData { Text = "i did not like this product at all", Label = false},
+      new SentimentData { Text = "This is the best thing i have ever bought!", Label = true},
+      new SentimentData { Text = "Worst purchase ever"}
+    };
+  }
 }
 
 
