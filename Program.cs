@@ -13,6 +13,8 @@ class Program
         var trainingPipeline = dataProcessPipeline.Append(trainer);
 
         var model = trainingPipeline.Fit(LoadData(mlContext));
+
+        var predictionEngine = mlContext.Model.CreatePredictionEngine<SentimentData, SentimentPrediction>(model);
     }
 
     static IDataView LoadData(MLContext mlContext)
