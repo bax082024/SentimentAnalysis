@@ -12,6 +12,7 @@ C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\Microsoft.ML.Tr
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\Microsoft.ML.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\Microsoft.ML.CpuMath.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\Microsoft.ML.DataView.dll
+C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\Microsoft.ML.FastTree.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\System.CodeDom.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\System.Numerics.Tensors.dll
@@ -23,6 +24,10 @@ C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\osx-x6
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\win-arm64\native\LdaNative.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\win-x64\native\LdaNative.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\win-x86\native\LdaNative.dll
+C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\linux-x64\native\libFastTreeNative.so
+C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\osx-x64\native\libFastTreeNative.dylib
+C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\win-x64\native\FastTreeNative.dll
+C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\bin\Debug\net8.0\runtimes\win-x86\native\FastTreeNative.dll
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\obj\Debug\net8.0\SentimentAnalysis.csproj.AssemblyReference.cache
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\obj\Debug\net8.0\SentimentAnalysis.GeneratedMSBuildEditorConfig.editorconfig
 C:\HjemmeKode\C-Sharp\C-Sharp\SentimentAnalysis\obj\Debug\net8.0\SentimentAnalysis.AssemblyInfoInputs.cache

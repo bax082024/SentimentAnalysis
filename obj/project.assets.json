@@ -169,6 +169,43 @@
           }
         }
       },
+      "Microsoft.ML.FastTree/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.ML": "3.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.FastTree.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/netstandard2.0/Microsoft.ML.FastTree.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libFastTreeNative.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/libFastTreeNative.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/FastTreeNative.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/FastTreeNative.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
       "Microsoft.NETCore.Platforms/1.1.0": {
         "type": "package",
         "compile": {
@@ -463,6 +500,27 @@
         "microsoft.ml.dataview.3.0.1.nupkg.sha512",
         "microsoft.ml.dataview.nuspec",
         "mlnetlogo.png"
+      ]
+    },
+    "Microsoft.ML.FastTree/3.0.1": {
+      "sha512": "/prGDy12z/jX8/lAfGpj0ukllAtqgR81FJDpjiZwS435xVC/og8RO7rRcXt5suy2B4grlkN7C+eo4Xfh3sQr6A==",
+      "type": "package",
+      "path": "microsoft.ml.fasttree/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/netstandard2.0/Microsoft.ML.FastTree.props",
+        "lib/netstandard2.0/Microsoft.ML.FastTree.dll",
+        "lib/netstandard2.0/Microsoft.ML.FastTree.xml",
+        "microsoft.ml.fasttree.3.0.1.nupkg.sha512",
+        "microsoft.ml.fasttree.nuspec",
+        "mlnetlogo.png",
+        "runtimes/linux-x64/native/libFastTreeNative.so",
+        "runtimes/osx-x64/native/libFastTreeNative.dylib",
+        "runtimes/win-x64/native/FastTreeNative.dll",
+        "runtimes/win-x86/native/FastTreeNative.dll"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
@@ -1183,7 +1241,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Microsoft.ML >= 3.0.1"
+      "Microsoft.ML >= 3.0.1",
+      "Microsoft.ML.FastTree >= 3.0.1"
     ]
   },
   "packageFolders": {
@@ -1229,6 +1288,10 @@
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.ML": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "Microsoft.ML.FastTree": {
             "target": "Package",
             "version": "[3.0.1, )"
           }
