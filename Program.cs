@@ -22,6 +22,14 @@ class Program
           new SentimentData { Text = "This is the worst experience i have ever had"},
           new SentimentData { Text = "Im not sure how i feel about this"}
         };
+
+        Console.WriteLine("Predictions:");
+        foreach (var sentiment in testSentiments)
+        {
+          var result = predictionEngine.Predict(sentiment);
+          Console.WriteLine($"Text: {sentiment.Text}");
+          Console.WriteLine($"Prediction: {(result.Prediction ? "Positive" : "Negative")}, Probability: {result.Probability:P2}");
+        }
     }
 
     static IDataView LoadData(MLContext mlContext)
