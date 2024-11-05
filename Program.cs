@@ -2,6 +2,22 @@
 using Microsoft.ML;
 using Microsoft.ML.Data;
 
+class Program
+{
+  static void Main(string[] args)
+  {
+    MLContext mLContext = new MLContext;
+  }
+}
+
+
+
+
+
+
+
+
+
 public class SentimentData
 {
   [LoadColumn(0)] // Text Collumn
