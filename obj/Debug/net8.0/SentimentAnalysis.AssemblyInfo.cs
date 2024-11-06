@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SentimentAnalysis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+998bf4825174aaad03c5cd5cfaf7c3233b5202ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57d673a5720fe801b8b5a4f5d5be712f3b74f711")]
 [assembly: System.Reflection.AssemblyProductAttribute("SentimentAnalysis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SentimentAnalysis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
