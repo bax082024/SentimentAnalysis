@@ -14,9 +14,9 @@ class Program
         var trainer = mlContext.BinaryClassification.Trainers.FastTree(
             labelColumnName: "Label", 
             featureColumnName: "Features",
-            numberOfLeaves: 50,               // Increased leaves for complexity
+            numberOfLeaves: 60,               // Increased leaves for complexity
             learningRate: 0.05,                 // Lower learning rate for generalization
-            numberOfTrees: 100,                // Increased trees for better accuracy
+            numberOfTrees: 120,                // Increased trees for better accuracy
             minimumExampleCountPerLeaf: 10     // Ensures a minimum of 20 samples per leaf
         );
 
