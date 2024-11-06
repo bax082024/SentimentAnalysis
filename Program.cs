@@ -15,7 +15,7 @@ class Program
             labelColumnName: "Label", 
             featureColumnName: "Features",
             numberOfLeaves: 60,               // Increased leaves for complexity
-            learningRate: 0.05,                 // Lower learning rate for generalization
+            learningRate: 0.2,                 // Lower learning rate for generalization
             numberOfTrees: 128,                // Increased trees for better accuracy
             minimumExampleCountPerLeaf: 19    // Ensures a minimum of 20 samples per leaf
         );
